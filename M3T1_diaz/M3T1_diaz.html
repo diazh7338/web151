@@ -1,0 +1,33 @@
+<!--
+WEB 151
+M2LAB
+Hayden Diaz
+Feb 4.2018
+-->
+
+<html>
+<head>
+
+</head>
+<body>
+	<h1>Hello World</h1>
+
+	<script>
+	var randomBodyParts = ["Face", "Nose", "Hair"];
+	var randomAdjectives = ["Smelly", "Boring", "Stupid"];
+	var randomWords = ["Fly", "Marmot", "Stick", "Monkey", "Rat"];
+	
+	// Selecting a random body part from the array:
+	var randomBodyPart = randomBodyParts[Math.floor(Math.random() * 3)];
+	// Selecting a random adjective from the array:
+	var randomAdjective = randomAdjectives[Math.floor(Math.random() *3)];
+	// Selecting a random word from the array:
+	var randomWord = randomWords[Math.floor(Math.random() *5)];
+	// Creating a sentence 
+	var randomInsult = "Your " + randomBodyPart + " is like a " + 
+	randomAdjective + " " + randomWord + "!!!";
+	document.write(randomInsult);
+	</script>
+</body>
+
+</html>
