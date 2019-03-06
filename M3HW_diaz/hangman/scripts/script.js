@@ -1,9 +1,6 @@
 //game goes here 
 		var words = [
-		"javascript",
-		"monkey",
-		"amazing",
-		"pancake"
+		"a"
 		];
 		
 		// Pick a random word
@@ -21,8 +18,9 @@
 		while (remainingLetters > 0) {
 			// Show the player their progress
 			alert(answerArray.join(" "));
+			document.write("<p id='scriptoutput'>")
 			document.write(answerArray.join(" "));
-			document.write("<br>")
+			document.write("</p>")
 			
 			// Get a guess from the player 
 			var guess = prompt("Guess a letter, or click Cancel to stop playing.");
@@ -42,3 +40,13 @@
 				 }
 				// The end of the game loop
 				}
+				
+				// Show the answer and congratulate the player 
+				alert(answerArray.join(" "))
+				alert("Good job! The answer was " + word);
+				document.write("<p id='scriptoutput'>")
+				document.write(answerArray.join(" "));
+				document.write("</p>")
+				document.write("<p id='displayAnswer'>")
+				document.write(word);
+				document.write("</p>")
