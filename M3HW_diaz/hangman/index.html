@@ -37,6 +37,7 @@ Hayden Diaz
 		while (remainingLetters > 0) {
 			// Show the player their progress
 			alert(answerArray.join(" "));
+			document.write(answerArray.join(" "));
 			
 			// Get a guess from the player 
 			var guess = prompt("Guess a letter, or click Cancel to stop playing.");
@@ -44,8 +45,18 @@ Hayden Diaz
 				// Exit the game loop
 				break;
 			} else if (guess.length !==1){
-			alert("Please enter a single letter.
-		
+			alert("Please enter a single letter.");
+			} else{
+			  // Update the game state with the guess
+			  for (var j = 0; j < word.length; j++) {
+				if (word[j] === guess) {
+					answerArray[j] = guess;
+					remainingLetters --;
+				   }
+				  }
+				 }
+				// The end of the game loop
+				}		
 	</script>
 
 
