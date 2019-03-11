@@ -1,0 +1,79 @@
+
+
+#monetizationpage {
+	background-color:grey;
+}
+
+
+#mainnav {
+	font-family:Courier New;
+	text-align:center;
+	font-size:30px;
+	
+	
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5b9aff;
+	
+}
+
+h1{
+	font-family:Impact;
+	text-align:center;
+	font-size:50px;
+	font-weight:bold;
+	padding-bottom:0;
+	
+}
+
+#intro{
+	font-family:Courier New;
+	text-align:center;
+	font-size:30px;
+}
+
+#price1{
+	font-family:Courier New;
+	text-align:center;
+	font-size:100px;
+	padding-top:0;
+}
+
+#intro2{
+	font-family:Courier New;
+	text-align:center;
+	font-size:30px;
+}
+
+#price2{
+	font-family:Courier New;
+	text-align:center;
+	font-size:100px;
+	padding-top:0;
+}
+
+h2{
+	font-family:Courier New;
+	text-align:center;
+	font-size:35px;
+}
+
+#session{
+	font-family:Courier New;
+	text-align:left;
+	font-size:30px;
+}
+
+#scoreword{
+	font-family:Courier New;
+	text-align:center;
+	font-size:30px;
+}
+
+#score{
+	font-family:Courier New;
+	text-align:center;
+	font-size:200px;	
+}

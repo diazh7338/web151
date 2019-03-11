@@ -1,0 +1,50 @@
+
+
+#landingpage {
+	background-color:grey;
+}
+
+#mainnav {
+	font-family:Courier New;
+	text-align:center;
+	font-size:30px;
+	
+	
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5b9aff;
+	
+}
+
+h1{
+	font-family:Impact;
+	text-align:center;
+	font-size:50px;
+	font-weight:bold;
+	
+}
+
+#introsentence {
+	
+	font-family:Courier;
+	text-align:center;
+	font-size:25px;
+	
+}
+
+#intropics{
+	
+	display:block;
+	text-align:center;
+}
+
+#note{
+	font-family:Courier New;
+	text-align:center;
+	font-size:30px;
+	
+}
+
+
