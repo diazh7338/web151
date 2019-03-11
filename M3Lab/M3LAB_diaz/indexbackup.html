@@ -1,0 +1,52 @@
+<!--
+WEB 151
+M3T2
+Hayden Diaz
+Feb 20.2018
+-->
+
+<html>
+<head>
+
+</head>
+<body>
+	<h1>Let me roast you...</h1>
+
+	<script>
+	var insult = {};
+	var randomHumanBodyParts = ["face", "ear", "toe", "mouth"];
+	var randomAdjectives = ["stank", "murdering", "rotting", "vile",];
+	var randomAnimals = ["Penguin's", "Polar Bear's", "Frog's", "Cockroach's","Monkey's"];
+	var randomAnimalBodyParts = ["flipper", "claws", "antenna", "tail", "belly"];
+	
+	
+	insult.randomize = function(){
+	
+			// Selecting a random human body part from the array:
+			insult.randomHumanBodyPart = randomHumanBodyParts[Math.floor(Math.random() * 4)];
+	
+			// Selecting a random adjective from the array:
+			insult.randomAdjective = randomAdjectives[Math.floor(Math.random() *4)];
+	
+			// Selecting a random animal from the array:
+			insult.randomAnimal = randomAnimals [Math.floor(Math.random() *5)];
+	
+			// Selecting a random animal body part from the array:
+			insult.randomAnimalBodyPart = randomAnimalBodyParts[Math.floor(Math.random() *5)];
+			}
+	
+	// Creating a sentence 
+	insult.print = function(){
+			randomInsult = "Your " + insult.randomHumanBodyPart + " is more " + 
+			insult.randomAdjective + " than a " + insult.randomAnimal + " " + insult.randomAnimalBodyPart + ".";
+			document.write(randomInsult);
+			}
+	//print the roast out
+	insult.randomize();
+	insult.print();
+	</script>
+	
+	<h2>You just got flamed.<br>now get some ice</h2>
+</body>
+
+</html>
