@@ -1,0 +1,45 @@
+/*
+WEB 151
+Hangman Stylesheet
+M3HW
+Hayden Diaz
+3/4/19
+*/
+
+#scriptoutput{
+
+	text-align:center;	
+
+}
+
+#displayAnswer{
+
+	font-family: Impact;
+
+	text-align:center;
+
+	font-size:150px;
+
+	color: Maroon;
+
+	padding-top:0px;
+
+	
+
+}
+
+h1 {
+
+	font-family: Impact;
+
+	font-size: 82px;
+
+	text-align: center;
+
+	padding-bottom: 0;
+
+	
+
+	
+
+}
